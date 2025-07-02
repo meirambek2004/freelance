@@ -352,6 +352,7 @@ body {
   margin: 0 20px;
   position: relative;
   top: -10px;
+  z-index: 2;
 }
 
 .text-block h1 {
@@ -433,7 +434,9 @@ button#submitBtn:hover {
   border-radius: 10px;
   background: linear-gradient(135deg, #004040, #003030);
   background-image: url(/images/9bcd54030254311c97add5c0bc690e61ce15883f.jpg);
+  box-shadow: 0 2px 77px 0 #0b3d3c, 0 -59px 139.1px 0 #053837;
   background-size: contain;
+  /* opacity: 33%; */
 }
 
 .top-text .service {
@@ -569,6 +572,8 @@ button#submitBtn:hover {
 }
 
 .column ul {
+  position: relative;
+  top: -7px;
   background-color: rgba(215, 215, 215, 1);
   list-style: none;
   padding: 0;
@@ -625,10 +630,14 @@ button#submitBtn:hover {
   font-weight: 600;
 }
 .outsourcing h3 {
+  border-bottom: 9px solid #ffffff;
   background-color: rgba(1, 89, 88, 1);
 }
 .outsourcing ul {
+  position: relative;
   background: radial-gradient(rgba(0, 88, 87, 1) 0%);
+  border-radius: 10px;
+  top: -18px;
 }
 .outsourcing li {
   color: rgba(255, 255, 255, 1);
